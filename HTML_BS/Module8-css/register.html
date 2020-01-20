@@ -1,0 +1,117 @@
+<html>
+        <head>
+        <title>REGISTER</title>
+        <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(C:/Users/User/Pictures/179466de20ee26922f9b2309fcda7c6e.jpg);
+            background-repeat:no-repeat;
+        }
+        .main
+        {
+            
+            top: 60%;
+            left: 50%;
+            position:absolute;
+            transform:translate(-50%,-50%);
+
+
+
+        }
+        .de{
+            padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    background: rgb(224, 229, 247);
+    border-radius: 10px;
+        }
+        .submit{
+            border-radius: 20px;
+            padding: 10px 20px;
+            background:royalblue;
+            color:white;
+            margin-top: 10px;
+            border: none;
+            outline: none;
+            margin-left: 50px;
+
+        }
+        img{
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 120px;
+            margin-top: -80px;
+        }
+        #name{
+            width: 200px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid red;
+            padding: 6px;
+            margin-bottom:15px ;
+            color: black;
+        }
+        #name:hover {
+  background-color:wheat;
+}
+#pas:hover{
+    background-color:yellow ;
+}
+   
+
+        
+            </style>
+</head>
+<body >
+    
+           <div class="main">
+    
+       <form action="login.html">
+        
+        
+
+            
+            <p><img  align="center" height="110px"  src="C:/Users/User/Downloads/computer.png"></p>
+            <div class="de">
+           <p> <input type="text" name="Firstname" id="name" required="required" placeholder="Firstname">
+            
+            <br/>
+            <p> <input type="text" name="Lastname" id="name" required="required" placeholder="Lastname">
+                <br/>
+                <p> <input type="text" name="City" id="name" required="required" placeholder="City">
+                    <br/>
+                    <p> <input type="text" name="State" id="name" required="required" placeholder="State">
+                        <br/>
+                        <p> <input type="text" name="Country" id="name" required="required" placeholder="Country">
+                            <br/>
+            
+            <input type="date" name="date" id="name" required="required"  placeholder="dd-mm-yyyy" >
+            <br/>
+            <p> <input type="text" name="Username" id="name" required="required" placeholder="Username">
+                <br/>
+                <p> <input type="email" name="Email" id="name" required="required" placeholder="Email">
+                    <br/>
+                    <p> <input type="password" name="Password" id="name" required="required" minlength="8" placeholder="Password" pattern="(?=.*\d)(?=.*[@,$,%,&])(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                        <br/>
+            
+           
+            
+        
+        </p>
+            <input type="submit" value="REGISTER" class="submit">
+            
+
+    </div>
+
+    
+
+        </form>
+        </div>
+        
+    
+
+    
+</body>
+</html>

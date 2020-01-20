@@ -1,0 +1,85 @@
+.main{
+    padding: 5px;
+    color:white;
+    
+}
+.div2{
+    padding: 25px;
+    padding-left: 200px;
+    font-size: 50px;
+    font-style: Helvetica Neue;
+}
+.imag{
+    padding:50px;
+    padding-left: 250px;
+
+    color: blue;
+    font-size: 20px;
+    
+
+}
+
+.det{
+    margin-left: 55%;
+    color: black;
+    margin-top: -330px;
+    
+}
+#name{
+    width: 65%;
+}
+.but{
+    border-radius: 0px;
+    padding: 10px 50px 10px 50px;
+    background:green;
+    color:white ;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    margin-left: 6px;
+}
+
+.div3{
+    padding: 25px;
+    padding-left: 700px;
+    margin-top: -50px;
+    
+}
+.div4{
+    padding: 25px;
+    padding-left: 900px;
+    margin-top: -70px;
+
+}
+.div5{
+    padding: 25px;
+    padding-left: 1100px;
+    margin-top: -90px;
+    color: white;
+    
+    
+
+}
+.ep{
+    position: absolute;
+    padding: 25px;
+    padding-left: 700px;
+    margin-top: -90px;
+    color: white;
+
+}
+.pas{
+    padding: 25px;
+    padding-left: 900px;
+    margin-top: -90px;
+    color: white;
+
+}
+.for{
+    padding: 25px;
+    padding-left: 900px;
+    margin-top: -50px;
+    color: white;
+
+
+}
